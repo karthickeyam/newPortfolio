@@ -1,0 +1,617 @@
+html{
+    scroll-behavior: smooth;
+    }
+    body{
+      background-color: var(--body-font);
+    }
+    ul{
+      list-style: none;
+    }
+    button{
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    img{
+      width:100%;
+      height: auto;
+      vertical-align: middle;
+    }
+    h1{
+      font-size: 3em;
+    
+    }
+    .leftAdjectment{
+      border: 2px solid;
+      width: 94%;
+      min-height: 100vh;
+      margin-left: 5.5rem;
+    }
+    div{
+      display: block;
+    }
+    
+    
+    .container-fluid {
+      display: flex;
+      min-height: 40px;
+      margin-left: 650px;
+      overflow: visible;
+   
+    }
+    
+    nav{
+      position:absolute;
+      top: 0;
+      bottom: 0;
+      background-repeat: no-repeat;
+      
+    
+     
+      
+    }
+    
+    nav{
+      border-radius: 25px;
+     
+      position:sticky;
+      top: 0;
+      bottom: 0;
+     
+    }
+    i{
+      font-size: 1.2rem;  }
+  
+  
+    body{
+    background-image: url(../assets/gaming2.avif);
+      font-family: "sans-serif","Trebuchet MS","Gill Sans MT","RUbik",sans-serif;
+    background-size: cover;
+    background-size: 100%;
+    }
+    .outterhome{
+      background-image: url(../assets/gaming1.webp);
+      background-size: cover;
+      background-size: 100%;
+    }
+    
+    
+    .img3{
+      align-items: center;
+      background-size: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     min-height: 100vh;
+     width: 100%;
+    }
+    .card{
+      margin-left: 550px;
+      align-items: center;
+      background-color: antiquewhite;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover;
+      
+    
+    }
+    .card-img-top{
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+    }
+    .card-text{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 20px;
+    }
+    .iconic{
+      padding: 10px;
+      margin-left:0px;
+      font-size: .8rem;
+      column-gap: 2.3rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-around;
+    
+    }
+    .aboutimg{
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid #c6c6c6;
+      border-radius: 25%;
+      margin-left: 13rem;
+      min-height: 40vh;
+      width: 15vw;
+      
+    }
+    .outterAbout{
+      display: flex;
+      justify-content: space-between;
+      margin-top: auto;
+     
+    }
+    *{
+      box-sizing: border-box;
+        margin: 0;
+        padding: 0
+    }
+    .aboutme{
+      font-size: 3rem;
+      font-weight: 900;
+      margin-left: 2rem;
+      margin-top: 4rem;
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      color: aliceblue;
+      
+      
+    }
+    
+    .top{
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      min-height: 35vh;
+    }
+    .aboutpara{
+      background-color: #c6c6c6;
+      border-radius: 25px;
+      font-size: large;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      margin-right: 20rem;
+      min-height: 20vh;
+      padding: 20px;
+      text-align: center;
+      width: 40%;
+     
+      font-weight: bold;
+    }
+    .dailyroutine{
+     justify-content: flex-start;
+     margin-top: 5px;
+     min-height: none;
+     row-gap: 10px;
+     
+    }
+    .dailyroutine{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      
+    }
+    .sec1{
+       background-color:antiquewhite ;
+      border-radius: 25px;
+      justify-content: center;
+      min-height: 5vh;
+      text-align: center;
+      width: 40vh;
+    
+    }
+    .arowlogo{
+    border: whitesmoke 2px solid;
+    max-height: 2px;
+    width: 4vw;
+    }
+    
+    ul{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    ul{
+      list-style: none;
+    }
+    b{
+      font-size: 1.1rem;
+      margin-bottom: 2px;
+    }
+    b{
+      font-family: var(--body-font);
+    }
+    b{
+      font-weight: bold;
+    }
+    
+    
+    \\education\\
+    
+    .outterEducation{
+      min-height: 100vh;
+      padding: 0;
+    }
+    
+    .innerEducation{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    
+    
+    .innerLeft{
+      width: 35%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      position: relative;
+    }
+    
+    .box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin-top: .5rem;
+      row-gap: 1px;
+      height: 20vh;
+      width: 100%;
+      color:black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size:100%;
+      background-position:-10px; 
+      border-radius: 25px;
+      background-color: antiquewhite;
+      
+      
+    }
+    
+    
+    
+    
+    /* RightBox */
+  
+    
+    
+    
+    .skills{
+      min-height: 20vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 2px;
+      color: var(--heading-dark);
+    }
+    .center{
+  
+      border-bottom: 4px solid white;
+      border-left: 5px solid white;
+      border-right: 5px solid white;
+      flex-direction: column;
+      margin-top: -1rem;
+      padding: 10px;
+      row-gap: 6px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 50px;
+    
+    }
+    
+    
+    .college{
+      margin-top: 0rem;
+    }
+    .tenth {
+    border-bottom:none;
+    }
+    
+    @media screen  and (max-width:500px){
+      
+      .front-end{
+        margin-top: 3rem;
+        /* border: 2px solid; */
+        display: flex;
+       justify-content: center;
+      }
+      .back-end{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      margin-right: 0rem;
+       
+      }
+      .innerEducation{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+      }
+      .innerLeft{
+        margin-left: 0px;
+        width: 100%;
+        height: 60vh;
+        margin-top: .1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+        position: relative;
+      }
+   
+      .leftAdjectment{
+        margin-left: 0;
+      }
+    
+    /* CenterBox */
+   
+    .skills{
+      display: none;
+    }
+    .college{
+      row-gap: 1px;
+      margin-top: 0rem;
+      font-size: .8rem;
+      max-height: 5vh ;
+    }
+    .tweelth{
+    font-size: .9rem;
+    }
+    .tenth{
+      font-size: .9rem;
+    }
+    
+    /* RightBox */
+    .innerRight{
+      width: 100%;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      row-gap: .5rem;
+    } 
+    
+    .center, .skills{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      
+    }
+    element.style{
+      display: flex;
+      justify-content: center;
+      color:rgb(196, 219, 83) ;
+    }
+    }
+   
+    .center, .skills{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      
+    }
+    element.style{
+      display: flex;
+      justify-content: center;
+      color:rgb(196, 219, 83) ;
+    }
+   
+  
+    .outterproject{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .outterproject{
+      min-height: 100vh;
+    }
+    .leftAdjectment{
+      border: 0 solid;
+      display: flex;
+    }
+    @media screen and (max-width: 805px){
+  .leftAdjectment {
+      margin-left: 0;
+  }
+    }
+    
+    .demo{
+      display: flex;
+      flex-direction: column;
+      height: 5rem;
+      margin-top: 2rem;
+    }
+    
+    .demo{
+      
+      align-items: center;
+      color:antiquewhite;
+    }
+   
+    .demoText{
+      
+      font-size: 1.7erm;
+      margin-left: 2rem;
+      padding: 10px 10px 10px 15px;
+      width: 10vw;
+  
+    }
+    b{
+      margin-bottom: 5px;
+    }
+    .outterPhotoBox{
+      display: flex;
+      margin-top: 1rem;
+      min-height: 40vh;
+      width: 35vw;
+  
+    }
+    .innerPhotoBox{
+      background-image: url(../assets/Screenshot\ 2024-01-23\ 135414.png);
+    
+      background-repeat: no-repeat;
+      background-size:cover ;
+      border-radius: 20px;
+      height: 37vh;
+      margin-left: 14px;
+      width: 37vw;
+    }
+    .viewCodeButton{
+      align-items: center;
+      background-color: antiquewhite;
+      border-radius: 5px;
+      display: flex;
+      height: 10vh;
+      justify-content: center;
+      width: 100px;
+      margin-left: 220px;
+     
+    }
+    a{
+      text-decoration: none;
+    }
+   
+    
+    .heading{
+      display: none;
+    }
+    .heading{
+      background-color: antiquewhite;
+      border-radius: 15px;
+      margin-top: 1rem;
+      opacity: .8;
+      padding: 4px;
+    }
+    .project{
+     border-left: 3px solid #bcbc56;
+     border-right: 3px solid #bcbc56;
+     margin-top: 4rem;
+     min-height: 70vh;
+    }
+    .row{
+      display: flex;
+      padding-left:100px;
+    }
+    .col{
+      align-items: center;
+      border-radius: 5px;
+      background-color: antiquewhite;
+      width: auto;
+      margin-bottom: 1rem;
+      height: 12vh;
+      width: 100vh;
+      justify-content: center;
+      margin-right: 200px;
+  
+    }
+   
+  .outterButton{
+    display: flex;
+  }
+    
+  .aboutproject{
+    border:3px solid rgb(162,0,255);
+    width: 450px;
+    height: 150px;
+    transition-duration: 1s;
+    border-radius: 59% 41% 89% 11% / 11% 47% 53% 89%;
+    margin-left: 600px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .circle1,.innercircle1{
+    border: 3px solid rgb(255,230,3); 
+    height:150px; 
+    transition-duration: 1s; 
+    border-radius: 36% 144% 36% 64% / 80% 36% 64% 20%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+  }
+  .innercircle1{
+    flex-direction: column;
+    font-family: var(--body-font);
+    height: 16vh;
+    font-size: 1rem;
+    padding-left: 8px;
+    width: 10rem;
+    margin-left: 500px;
+  }
+  .outterContact{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  .leftAdjectment{
+    border:0 solid;
+  }
+  .leftAdjectment{
+    margin-left: 5rem;
+    min-height: 100vh;
+  }
+  .outterform{
+   
+    display: flex;
+    height: 100vh;
+    margin-left: 100px;
+    width: 98vw;
+  
+  }
+  .innerform{
+    display: grid;
+    height: 90vh;
+    margin-left: -3rem;
+    margin-top: 3rem;
+    width: 50vw;
+  }
+  form{
+    display: grid;
+    height: 70vh;
+    width: 40vw;
+  }
+  input{
+    background-color: antiquewhite;
+    border: none;
+    border-bottom: 2px solid #c6c6c6;
+    border-radius: 30px;
+    color: #787878;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding:1rem 15rem 15px;
+    margin-right: 100px;
+  }
+  textarea{
+    background-color: antiquewhite;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 2px;
+  }
+  .messageButton{
+    background-color: burlywood;
+    border-radius:20px ;
+    color: black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    min-height: 7vh;
+   justify-content: center;
+  }
+  button{
+    border: none;
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-img{
+    background-image: url(../assets/developer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 60vh;
+    min-width: 30vw;
+   
+  }
