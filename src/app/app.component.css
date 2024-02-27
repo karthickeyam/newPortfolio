@@ -31,29 +31,37 @@ html{
       display: block;
     }
     
-    
+    @media screen and(max-width:805px) {
+      .navbar navbar-expand-sm bg-light{
+        border-radius:0 ;
+        min-height: 4vh;
+        min-width: 100vw;
+      }
+      
+    }
+
+
     .container-fluid {
-      display: flex;
+      align-items: center;
       min-height: 40px;
-      margin-left: 650px;
+      display: flex;
+      justify-content: center;
+      padding-left: 8px;
+      width: 85px;
       overflow: visible;
+     
    
     }
     
     nav{
-      position:absolute;
+      position:fixed;
       top: 0;
       bottom: 0;
-      background-repeat: no-repeat;
-      
-    
-     
-      
+      background-repeat: no-repeat;  
     }
     
     nav{
       border-radius: 25px;
-     
       position:sticky;
       top: 0;
       bottom: 0;
@@ -64,29 +72,39 @@ html{
   
   
     body{
-    background-image: url(../assets/gaming2.avif);
+    background-color:#131313;
       font-family: "sans-serif","Trebuchet MS","Gill Sans MT","RUbik",sans-serif;
-    background-size: cover;
-    background-size: 100%;
+    background-size: 400px;
+   
     }
     .outterhome{
+      align-items: center;
       background-image: url(../assets/gaming1.webp);
-      background-size: cover;
-      background-size: 100%;
+      background-size: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+      width: 100%;
     }
     
-    
-    .img3{
+    @media screen and (max-width:805px) {
+      .card{
+        width: 75%;
+      }
+      
+    }
+    .card-img-top{
       align-items: center;
-      background-size: 400px;
+      
      display: flex;
      flex-direction: column;
      justify-content: center;
-     min-height: 100vh;
-     width: 100%;
+     
+     
     }
     .card{
-      margin-left: 550px;
+      
       align-items: center;
       background-color: antiquewhite;
       border-radius: 25px;
@@ -120,6 +138,7 @@ html{
       justify-content: space-around;
     
     }
+    /*About */
     .aboutimg{
       background-repeat: no-repeat;
       background-size: cover;
@@ -136,10 +155,53 @@ html{
       margin-top: auto;
      
     }
+    @media screen and (max-width:805px) {
+      .innerAbout{
+        margin-left: 2px;
+        min-height: 100vh;
+        width: 100%;
+      }
+      
+    }
+    @media screen and (max-width:805px){
+      .innerAbout, .top{
+        display: flex;
+        flex-direction: column;
+      }
+      
+    }
+    .innerAbout{
+      margin-left: 5.5rem;
+      min-height: 100vh;
+      width: 94%;
+    }
+    @media screen and (max-width:805px){
+      .top{
+        align-items:self-start;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        min-height: 40vh;
+        width: 100vw;
+      }
+    }
+    .top{
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      min-height: 35vh;
+    }
     *{
       box-sizing: border-box;
         margin: 0;
-        padding: 0
+        padding: 0;
+    }
+    @media screen and (max-width:805px) {
+      .aboutme{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+      }
     }
     .aboutme{
       font-size: 3rem;
@@ -154,13 +216,7 @@ html{
       
     }
     
-    .top{
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-      margin-top: 2rem;
-      min-height: 35vh;
-    }
+    
     .aboutpara{
       background-color: #c6c6c6;
       border-radius: 25px;
@@ -171,23 +227,39 @@ html{
       min-height: 20vh;
       padding: 20px;
       text-align: center;
-      width: 40%;
+      width: 99%;
      
       font-weight: bold;
     }
-    .dailyroutine{
-     justify-content: flex-start;
-     margin-top: 5px;
-     min-height: none;
-     row-gap: 10px;
-     
+    @media screen and (max-width:805px) {
+      .dailyroutine{
+        justify-content: flex-start;
+        margin-top: 5px;
+        min-height: none;
+        row-gap: 10px;
+        
+       }
     }
+    @media screen and (max-width:805px){
     .dailyroutine{
       align-items: center;
       display: flex;
-      justify-content: center;
+      
+     flex-direction: column;
       
     }
+   
+  }
+  .dailyroutine {
+    align-items: center;
+    display: flex;
+   justify-content: center;   
+  }
+  .dailyroutine{
+    column-gap: 12px;
+    margin-top: 2rem;
+    min-height: 40vh;
+  }
     .sec1{
        background-color:antiquewhite ;
       border-radius: 25px;
@@ -229,6 +301,25 @@ html{
       min-height: 100vh;
       padding: 0;
     }
+    @media screen and (max-width:805px) {
+      .leftAdjectment{
+        margin-left: 0;
+      }
+      
+    }
+    @media screen and (max-width:805px) {
+       .innerEducation, .innerLeft{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       }
+      
+    }
+    @media screen and (max-width:805px){
+      .innerEducation{
+        min-height: 100vh;
+      }
+    }
     
     .innerEducation{
       display: flex;
@@ -244,6 +335,11 @@ html{
       flex-direction: column;
       row-gap: 2rem;
       position: relative;
+    }
+    @media screen and (max-width:805px){
+      .box{
+        width: 40%;
+      }
     }
     
     .box{
@@ -306,7 +402,7 @@ html{
     border-bottom:none;
     }
     
-    @media screen  and (max-width:500px){
+    @media screen  and (max-width:805px){
       
       .front-end{
         margin-top: 3rem;
