@@ -71,23 +71,23 @@ html{
       .container-fluid {
         width: 100%;
         border-radius:0 ;
-        min-height: 40px;
-        min-width: 100px;
+        min-height: 100vw;
+        min-width: 4vh;
       } /* Set width to 100% for full width */
       
-      .ul {
-        flex-direction: row; /* Change to column for vertical stacking */
-      }
+      
       .ul {
         display: flex;
-        flex-wrap: wrap; /* Wrap items in smaller screens */
+        flex-direction: row;
+        column-gap: 2rem; /* Wrap items in smaller screens */
       }
       nav{
         position: fixed;
         left: 0;
         bottom: 0;
-        align-items: center;
-        
+      }
+      i{
+        font-size: 1.2rem;
       }
     }
     
@@ -119,7 +119,7 @@ html{
     
   /*  navend */ 
   
-    
+    /*home */
     .outterhome{
       align-items: center;
       background-image: url(../assets/gaming1.webp);
