@@ -30,6 +30,12 @@ html{
     div{
       display: block;
     }
+    body{
+      background-color:#131313;
+        font-family: "sans-serif","Trebuchet MS","Gill Sans MT","RUbik",sans-serif;
+      background-size: 400px;
+     
+      }
     /*nav*/
 
     .container-fluid {
@@ -74,7 +80,7 @@ html{
       }
       nav{
         position: fixed;
-        top: 0;
+        left: 0;
         bottom: 0;
         align-items: center;
         
@@ -109,12 +115,7 @@ html{
     
   /*  navend */ 
   
-    body{
-    background-color:#131313;
-      font-family: "sans-serif","Trebuchet MS","Gill Sans MT","RUbik",sans-serif;
-    background-size: 400px;
-   
-    }
+    
     .outterhome{
       align-items: center;
       background-image: url(../assets/gaming1.webp);
@@ -177,69 +178,11 @@ html{
     
     }
     /*About */
-    .aboutimg{
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid #c6c6c6;
-      border-radius: 25%;
-      margin-left: 13rem;
-      min-height: 40vh;
-      width: 15vw;
-      
-    }
     .outterAbout{
       display: flex;
-      justify-content: space-between;
+      
       margin-top: auto;
      
-    }
-    @media screen and (max-width:805px) {
-      .innerAbout{
-        margin-left: 2px;
-        min-height: 100vh;
-        width: 100%;
-      }
-      
-    }
-    @media screen and (max-width:805px){
-      .innerAbout, .top{
-        display: flex;
-        flex-direction: column;
-      }
-      
-    }
-    .innerAbout{
-      margin-left: 5.5rem;
-      min-height: 100vh;
-      width: 94%;
-    }
-    @media screen and (max-width:805px){
-      .top{
-        align-items:self-start;
-        justify-content: flex-start;
-        margin-top: 1rem;
-        min-height: 40vh;
-        width: 100vw;
-      }
-    }
-    .top{
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-      margin-top: 2rem;
-      min-height: 35vh;
-    }
-    *{
-      box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-    @media screen and (max-width:805px) {
-      .aboutme{
-        font-size: 1.5rem;
-        margin-left: 1rem;
-        margin-top: 2rem;
-      }
     }
     .aboutme{
       font-size: 3rem;
@@ -250,9 +193,30 @@ html{
       justify-content: center; /* Center horizontally */
       align-items: center; /* Center vertically */
       color: aliceblue;
-      
-      
     }
+    .innerAbout{
+      width: 94%;
+      min-height: 100vh;
+      margin-left: 5.5rem;
+    }
+    .top{
+      min-height: 35vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    .aboutimg{
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid #c6c6c6;
+      border-radius: 25%;
+      margin-left: 13rem;
+      min-height: 40vh;
+      width: 15vw;
+      background-size: cover;
+    }
+    
     
     
     .aboutpara{
@@ -261,14 +225,101 @@ html{
       font-size: large;
       letter-spacing: 1px;
       margin-bottom: 10px;
-      margin-right: 20rem;
+      margin-right: 10rem;
       min-height: 20vh;
       padding: 20px;
       text-align: center;
-      width: 99%;
+      width: 40%;
      
       font-weight: bold;
     }
+   
+   
+    *{
+      box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .dailyroutine {
+      align-items: center;
+      display: flex;
+     justify-content: center;  
+     column-gap: 12px;
+     margin-top: 2rem;
+     min-height: 40vh; 
+    }
+    
+      .sec1{
+         background-color:antiquewhite ;
+        border-radius: 25px;
+        justify-content: center;
+        min-height: 5vh;
+        text-align: center;
+        width: 40vh;
+      
+      }
+      .arowlogo{
+      border: whitesmoke 2px solid;
+      max-height: 2px;
+      width: 4vw;
+      }
+      
+      ul{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      ul{
+        list-style: none;
+      }
+      b{
+        font-size: 1.1rem;
+        margin-bottom: 2px;
+      }
+      b{
+        font-family: var(--body-font);
+      }
+      b{
+        font-weight: bold;
+      }
+      @media screen and (max-width:805px) {
+        .innerAbout{
+          margin-left: 2px;
+          min-height: 100vh;
+          width: 100%;
+        }
+        
+      }
+      @media screen and (max-width:805px){
+        .innerAbout, .top{
+          display: flex;
+          flex-direction: column;
+        }
+        
+      }
+      .innerAbout{
+        margin-left: 5.5rem;
+        min-height: 100vh;
+        width: 94%;
+      }
+      @media screen and (max-width:805px){
+        .top{
+          flex-direction: column;
+          align-items:self-start;
+          justify-content: flex-start;
+          margin-top: 1rem;
+          min-height: 40vh;
+          width: 100vw;
+        }
+      }
+    @media screen and (max-width:805px) {
+      .aboutme{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+      }
+    }
+    
     @media screen and (max-width:805px) {
       .dailyroutine{
         justify-content: flex-start;
@@ -288,49 +339,7 @@ html{
     }
    
   }
-  .dailyroutine {
-    align-items: center;
-    display: flex;
-   justify-content: center;   
-  }
-  .dailyroutine{
-    column-gap: 12px;
-    margin-top: 2rem;
-    min-height: 40vh;
-  }
-    .sec1{
-       background-color:antiquewhite ;
-      border-radius: 25px;
-      justify-content: center;
-      min-height: 5vh;
-      text-align: center;
-      width: 40vh;
-    
-    }
-    .arowlogo{
-    border: whitesmoke 2px solid;
-    max-height: 2px;
-    width: 4vw;
-    }
-    
-    ul{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    ul{
-      list-style: none;
-    }
-    b{
-      font-size: 1.1rem;
-      margin-bottom: 2px;
-    }
-    b{
-      font-family: var(--body-font);
-    }
-    b{
-      font-weight: bold;
-    }
+ 
     
     
     /*education*/
