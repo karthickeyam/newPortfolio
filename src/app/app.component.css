@@ -69,8 +69,12 @@ html{
     @media screen and (max-width: 805px) {
       /* Styles for screens smaller than 450px */
       .container-fluid {
-        width: 100%; /* Set width to 100% for full width */
-      }
+        width: 100%;
+        border-radius:0 ;
+        min-height: 40px;
+        min-width: 100px;
+      } /* Set width to 100% for full width */
+      
       .ul {
         flex-direction: row; /* Change to column for vertical stacking */
       }
@@ -305,7 +309,7 @@ html{
       @media screen and (max-width:805px){
         .top{
           flex-direction: column;
-          align-items:self-start;
+         
           justify-content: flex-start;
           margin-top: 1rem;
           min-height: 40vh;
